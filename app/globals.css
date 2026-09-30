@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --cursor-x: 50vw;
+  --cursor-y: 50vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #fffaf2;
+}
+
+body {
+  margin: 0;
+  color: #121212;
+  background:
+    linear-gradient(135deg, rgba(139, 92, 246, 0.08), transparent 32rem),
+    linear-gradient(315deg, rgba(93, 124, 96, 0.08), transparent 28rem),
+    #fffaf2;
+  font-family: var(--font-inter), Inter, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+body::selection {
+  background: #121212;
+  color: #fffaf2;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #8b5cf6;
+  outline-offset: 4px;
+}
+
+.section-shell {
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #78736c;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.18;
+  mix-blend-mode: multiply;
+  background-image: radial-gradient(rgba(18, 18, 18, 0.26) 0.65px, transparent 0.65px);
+  background-size: 5px 5px;
+}
+
+.cursor-target {
+  cursor: none;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .cursor-target {
+    cursor: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
