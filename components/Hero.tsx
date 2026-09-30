@@ -35,7 +35,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            IT Undergraduate - SLIIT - Quality Assurance Focus
+            IT Undergraduate - SLIIT - QA / BA Focus
           </motion.p>
           <motion.h1
             className="font-display text-[clamp(3.35rem,13vw,9.4rem)] font-extrabold uppercase leading-[0.84] tracking-normal text-ink md:leading-[0.82] lg:text-[clamp(5.2rem,8vw,9.4rem)]"
@@ -61,8 +61,8 @@ export function Hero() {
             transition={{ delay: 0.18, duration: 0.7 }}
           >
             I&apos;m {profile.firstName}, an Information Technology undergraduate at{" "}
-            {profile.universityShort} interested in Quality Assurance, software development and
-            creating meaningful digital experiences.
+            {profile.universityShort} interested in QA / BA, software development and creating
+            meaningful digital experiences.
           </motion.p>
           <motion.div
             className="mt-10 flex flex-col gap-3 sm:flex-row"

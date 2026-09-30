@@ -9,7 +9,7 @@ export function Footer() {
             {profile.name}
           </p>
           <p className="mt-2 text-sm text-muted">
-            Information Technology Undergraduate · Quality Assurance Enthusiast
+            Information Technology Undergraduate · QA / BA Enthusiast
           </p>
           <p className="mt-4 text-xs text-muted">© 2026 Oneli Rajapakse</p>
         </div>

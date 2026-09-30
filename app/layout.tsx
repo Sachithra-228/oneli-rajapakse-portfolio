@@ -17,11 +17,11 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: "Oneli Rajapakse | Information Technology Undergraduate",
   description:
-    "Portfolio of Oneli Rajapakse, an Information Technology undergraduate at SLIIT interested in Quality Assurance, software development and creating meaningful digital experiences.",
+    "Portfolio of Oneli Rajapakse, an Information Technology undergraduate at SLIIT interested in QA / BA, software development and creating meaningful digital experiences.",
   openGraph: {
     title: "Oneli Rajapakse | Information Technology Undergraduate",
     description:
-      "A premium personal portfolio for Oneli Rajapakse, focused on Quality Assurance, software development and thoughtful digital experiences.",
+      "A premium personal portfolio for Oneli Rajapakse, focused on QA / BA, software development and thoughtful digital experiences.",
     type: "website",
     locale: "en_US",
     siteName: "Oneli Rajapakse",

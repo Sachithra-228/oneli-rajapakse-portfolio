@@ -10,20 +10,20 @@ export function AboutTechPanel() {
         <div>
           <div className="flex items-center justify-between text-xs uppercase text-paper/55">
             <span>IT Undergraduate · SLIIT</span>
-            <span>QA / SE</span>
+            <span>QA / BA</span>
           </div>
           <div className="mt-10 space-y-1 font-display text-[clamp(4rem,13vw,8rem)] font-extrabold leading-[0.82]">
             <div>QA</div>
-            <div className="text-paper/20">CODE</div>
+            <div className="text-paper/20">BA</div>
             <div className="text-transparent [-webkit-text-stroke:1px_rgba(255,250,242,0.72)]">
-              DESIGN
+              CODE
             </div>
           </div>
         </div>
         <div className="grid gap-5">
           <p className="max-w-md text-pretty text-lg leading-8 text-paper/70">
-            A visual snapshot of the space Oneli is growing into: testing carefully, building
-            practically and designing with users in mind.
+            A visual snapshot of the space Oneli is growing into: testing carefully, understanding
+            requirements and building with users in mind.
           </p>
           <div className="flex flex-wrap gap-2">
             {labels.map((label) => (

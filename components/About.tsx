@@ -15,8 +15,8 @@ export function About() {
         <div>
           <p className="text-pretty text-2xl leading-[1.35] text-ink md:text-3xl">
             Oneli is pursuing a {profile.degree} at {profile.universityShort}, with a career
-            direction shaped by Quality Assurance, practical software experience and steady
-            curiosity for new technologies.
+            direction shaped by Quality Assurance, Business Analysis, practical software experience
+            and steady curiosity for new technologies.
           </p>
           <p className="mt-7 max-w-2xl text-base leading-8 text-muted">
             Her portfolio brings together academic projects, interface concepts and learning

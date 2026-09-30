@@ -19,7 +19,7 @@ export const profile = {
   degree: "BSc. (Hons) in Information Technology",
   university: "Sri Lanka Institute of Information Technology",
   universityShort: "SLIIT",
-  focus: "Quality Assurance",
+  focus: "QA / BA",
   email: "onelirajapakse2004@gmail.com",
   phone: "+94 77 943 2296",
   location: "Kaduwela, Sri Lanka",
@@ -43,7 +43,7 @@ export const navItems = [
 export const profileFacts = [
   { label: "Based in", value: "Sri Lanka", icon: MapPin },
   { label: "Education", value: "BSc (Hons) Information Technology", icon: GraduationCap },
-  { label: "Focus", value: "Quality Assurance + Software Development", icon: BriefcaseBusiness },
+  { label: "Focus", value: "QA / BA + Software Development", icon: BriefcaseBusiness },
   { label: "Languages", value: "English, Sinhala", icon: BookOpen },
 ];
 
@@ -163,9 +163,10 @@ export const activities = [
 
 export const qualityPillars = [
   { label: "Quality Assurance", icon: Sparkles },
+  { label: "Business Analysis", icon: Users },
   { label: "Problem Solving", icon: Code2 },
   { label: "Software Testing", icon: BriefcaseBusiness },
-  { label: "Attention to Detail", icon: Users },
+  { label: "Attention to Detail", icon: Sparkles },
   { label: "Continuous Learning", icon: BookOpen },
 ];
 
